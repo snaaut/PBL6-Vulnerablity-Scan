@@ -1,0 +1,1 @@
+{"url": "https://hocthatgioi.com", "browser": "Firefox", "filters": [["XSS", true], ["SQL", true], ["WordPress", true], ["LFI/RFI", true], ["CSP", true], ["IDOR", true], ["CSRF", true], ["SSRF", true]], "speed": 4, "firstStart": false}

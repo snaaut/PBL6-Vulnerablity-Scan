@@ -1,0 +1,494 @@
+[
+    {
+        "date": "2023-12-18 17:41:59", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-18 18:01:12", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-18 22:50:35", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-18 22:50:58", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-18 22:51:06", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-18 23:08:12", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-19 02:44:10", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-20 06:37:47", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-20 06:45:45", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-21 04:18:22", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-21 04:34:14", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-22 04:59:37", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-27 01:55:39", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-27 01:57:50", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-27 01:59:53", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-27 02:01:16", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:17:17", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:18:24", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:20:01", 
+        "logs": []
+    }, 
+    {
+        "date": "2023-12-29 20:22:15", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:25:44", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:28:50", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:30:46", 
+        "logs": [
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. XSS analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations."
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:36:49", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:37:40", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:22", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:46", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 763, in show_settings\n    self.speedScanTEXT.place(x=40,y=175)\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'App' object has no attribute 'speedScanTEXT'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:49", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:50", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:53", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:53", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:53", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:53", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:54", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:47:55", 
+        "logs": []
+    }, 
+    {
+        "date": "2023-12-29 20:50:27", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:50:37", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 763, in show_settings\n    self.speedScanTEXT.place(x=40,y=175)\n    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'App' object has no attribute 'speedScanTEXT'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:51:31", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:51:35", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 763, in show_settings\n    self.speedScanTEXT.place(x=40,y=175)\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'place'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:37", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:43", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 738, in show_settings\n    speedScan = ttk.Scale(self.settings_window, from_=1, to=30, orient=tk.HORIZONTAL,variable=self.speedScanVar, command=self.updateSpeedScan)\n                                                                                                                         ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'App' object has no attribute 'updateSpeedScan'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:49", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:50", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:52:51", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 683, in show_settings\n    self.settings_window.lift()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1077, in tkraise\n    self.tk.call('raise', self._w, aboveThis)\n_tkinter.TclError: bad window path name \".!toplevel\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 20:54:15", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:10:55", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:11:41", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:11:59", 
+        "logs": []
+    }, 
+    {
+        "date": "2023-12-29 21:12:03", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 374, in btn_stop_click\n    self.statut['text'] = \"Done !\"\n    ~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1713, in __setitem__\n    self.configure({key: value})\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1702, in configure\n    return self._configure('configure', cnf, kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1692, in _configure\n    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))\n_tkinter.TclError: invalid command name \".!label3\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:12:03", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 356, in btn_scan_click\n    self.root.after(1000,self.process_queue_crawl)\n    ^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'after'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:14:37", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:14:49", 
+        "logs": []
+    }, 
+    {
+        "date": "2023-12-29 21:14:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 374, in btn_stop_click\n    self.statut['text'] = \"Done !\"\n    ~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1713, in __setitem__\n    self.configure({key: value})\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1702, in configure\n    return self._configure('configure', cnf, kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py\", line 1692, in _configure\n    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))\n_tkinter.TclError: invalid command name \".!label3\"\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:14:52", 
+        "logs": [
+            "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\app.py\", line 356, in btn_scan_click\n    self.root.after(1000,self.process_queue_crawl)\n    ^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'after'\n"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:16:02", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-29 21:16:46", 
+        "logs": [
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. XSS analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations."
+        ]
+    }, 
+    {
+        "date": "2023-12-30 17:33:49", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2023-12-30 18:14:01", 
+        "logs": [
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. XSS analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations."
+        ]
+    }, 
+    {
+        "date": "2023-12-30 19:59:12", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2024-01-03 18:26:09", 
+        "logs": [
+            "Starting Security Scan"
+        ]
+    }, 
+    {
+        "date": "2024-01-03 18:26:45", 
+        "logs": [
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver dont work or does not exist. XSS analysis failed. Please check your software settings and or configurations.NoneType: None\n", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver dont work or does not exist. XSS analysis failed. Please check your software settings and or configurations.NoneType: None\n", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver dont work or does not exist. XSS analysis failed. Please check your software settings and or configurations.NoneType: None\n", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver dont work or does not exist. XSS analysis failed. Please check your software settings and or configurations.NoneType: None\n", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SQL analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. XSS analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations.", 
+            "A browser related problem has occurred. Please check in the settings that your selection is correct. Currently selected browser :FirefoxCrash report : The browser failed to add a cookie please check that the domain name is correct:Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 72, in start\n    self.process = subprocess.Popen(cmd, env=self.env,\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 807, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\gevent\\subprocess.py\", line 1294, in _execute_child\n    hp, ht, pid, tid = CreateProcess(executable, args,\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\SecurityScan\\driver.py\", line 13, in getDriver\n    driver =  webdriver.Firefox(options=options)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py\", line 164, in __init__\n    self.service.start()\n  File \"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py\", line 81, in start\n    raise WebDriverException(\nselenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n", 
+            "The browser driver does not exist. SSRF analysis failed. Please check your software settings and or configurations."
+        ]
+    }
+]
